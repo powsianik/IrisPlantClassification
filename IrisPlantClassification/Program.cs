@@ -12,6 +12,7 @@ namespace IrisPlantClassification
             Step3();
             Step4();
             Step5();
+            Step6();
 
             Console.ReadKey();
         }
@@ -50,6 +51,13 @@ namespace IrisPlantClassification
             Console.WriteLine("STEP 5: Train neural network...");
             NetworkTrainer networkteTrainer = new NetworkTrainer();
             networkteTrainer.Train(DataFilesInfoGetter.NetworkFile, DataFilesInfoGetter.NormalizedTrainingFile);
+        }
+
+        static void Step6()
+        {
+            Console.WriteLine("STEP 6: Evaluate network...");
+            NetworkEvaluator evaluator = new NetworkEvaluator();
+            evaluator.Evaluate(DataFilesInfoGetter.NetworkFile, DataFilesInfoGetter.EncogAnalystFile, DataFilesInfoGetter.NormalizedEvaluateFile);
         }
     }
 }

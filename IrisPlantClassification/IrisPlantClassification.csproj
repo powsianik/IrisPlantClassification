@@ -52,6 +52,7 @@
     <Compile Include="Steps\DataSegregator.cs" />
     <Compile Include="Steps\DataShuffle.cs" />
     <Compile Include="Steps\NetworkCreator.cs" />
+    <Compile Include="Steps\NetworkEvaluator.cs" />
     <Compile Include="Steps\NetworkTrainer.cs" />
   </ItemGroup>
   <ItemGroup>
