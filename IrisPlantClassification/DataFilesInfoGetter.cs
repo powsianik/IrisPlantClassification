@@ -21,6 +21,6 @@ namespace IrisPlantClassification
 
         public static FileInfo EncogAnalystFile = new FileInfo(Path.Combine(BasePath.DirectoryName, "IrisData_EncogAnalyst.ega"));
 
-        public static FileInfo TrainedNetworkFile = new FileInfo(Path.Combine(BasePath.DirectoryName, "Iris_TrainedNetwork.eg"));
+        public static FileInfo NetworkFile = new FileInfo(Path.Combine(BasePath.DirectoryName, "Iris_Network.eg"));
     }
 }

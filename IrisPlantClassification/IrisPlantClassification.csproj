@@ -51,6 +51,7 @@
     <Compile Include="Steps\DataNormalizer.cs" />
     <Compile Include="Steps\DataSegregator.cs" />
     <Compile Include="Steps\DataShuffle.cs" />
+    <Compile Include="Steps\NetworkCreator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
