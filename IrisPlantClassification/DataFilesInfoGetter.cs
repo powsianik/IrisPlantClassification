@@ -14,5 +14,13 @@ namespace IrisPlantClassification
         public static FileInfo TrainingFile = new FileInfo(Path.Combine(BasePath.DirectoryName, "IrisData_Training.csv"));
 
         public static FileInfo EvaluateFile = new FileInfo(Path.Combine(BasePath.DirectoryName, "IrisData_Evaluate.csv"));
+
+        public static FileInfo NormalizedTrainingFile = new FileInfo(Path.Combine(BasePath.DirectoryName, "IrisData_NormalizedTraining.csv"));
+
+        public static FileInfo NormalizedEvaluateFile = new FileInfo(Path.Combine(BasePath.DirectoryName, "IrisData_NormalizedEvaluate.csv"));
+
+        public static FileInfo EncogAnalystFile = new FileInfo(Path.Combine(BasePath.DirectoryName, "IrisData_EncogAnalyst.ega"));
+
+        public static FileInfo TrainedNetworkFile = new FileInfo(Path.Combine(BasePath.DirectoryName, "Iris_TrainedNetwork.eg"));
     }
 }
